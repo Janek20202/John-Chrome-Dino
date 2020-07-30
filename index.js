@@ -33,9 +33,9 @@
         this.tRex = null;
 
         this.distanceMeter = null;
-        this.distanceRan = 0;
+        this.distanceRan = 000000;
 
-        this.highestScore = 0000000000;
+        this.highestScore = 0;
 
         this.time = 0;
         this.runningTime = 0;
