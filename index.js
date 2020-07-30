@@ -33,9 +33,9 @@
         this.tRex = null;
 
         this.distanceMeter = null;
-        this.distanceRan = 00000;
+        this.distanceRan = 0;
 
-        this.highestScore = 00000;
+        this.highestScore = 0;
 
         this.time = 0;
         this.runningTime = 0;
@@ -1906,7 +1906,7 @@
         MAX_DISTANCE_UNITS: 5,
 
         // Distance that causes achievement animation.
-        ACHIEVEMENT_DISTANCE: 100,
+        ACHIEVEMENT_DISTANCE: 999999,
 
         // Used for conversion from pixel distance to a scaled unit.
         COEFFICIENT: 0.025,
@@ -1932,7 +1932,7 @@
             for (var i = 0; i < this.maxScoreUnits; i++) {
                 this.draw(i, 0);
                 this.defaultString += '0';
-                maxDistanceStr += '9';
+                maxDistanceStr += '33';
             }
 
             this.maxScore = parseInt(maxDistanceStr);
