@@ -33,7 +33,7 @@
         this.tRex = null;
 
         this.distanceMeter = null;
-        this.distanceRan = 000000;
+        this.distanceRan = 0;
 
         this.highestScore = 0;
 
