@@ -1906,7 +1906,7 @@
         MAX_DISTANCE_UNITS: 5,
 
         // Distance that causes achievement animation.
-        ACHIEVEMENT_DISTANCE: 999999,
+        ACHIEVEMENT_DISTANCE: 1000,
 
         // Used for conversion from pixel distance to a scaled unit.
         COEFFICIENT: 0.025,
@@ -1932,7 +1932,7 @@
             for (var i = 0; i < this.maxScoreUnits; i++) {
                 this.draw(i, 0);
                 this.defaultString += '0';
-                maxDistanceStr += '33';
+                maxDistanceStr += '15';
             }
 
             this.maxScore = parseInt(maxDistanceStr);
@@ -2077,7 +2077,7 @@
             this.canvasCtx.save();
             this.canvasCtx.globalAlpha = .8;
             for (var i = this.highScore.length - 1; i >= 0; i--) {
-                this.draw(i, parseInt(this.highScore[i], 10), true);
+                this.draw(i, parseInt(this.highScore[i], 100000000000000), true);
             }
             this.canvasCtx.restore();
         },
