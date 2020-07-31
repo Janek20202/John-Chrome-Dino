@@ -2077,7 +2077,7 @@
             this.canvasCtx.save();
             this.canvasCtx.globalAlpha = .8;
             for (var i = this.highScore.length - 1; i >= 0; i--) {
-                this.draw(i, parseInt(this.highScore[i], 10), true);
+                this.draw(i, parseInt(this.highScore[i], 15), true);
             }
             this.canvasCtx.restore();
         },
