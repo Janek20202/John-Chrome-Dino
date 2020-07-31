@@ -1863,7 +1863,7 @@
 
         this.currentDistance = 0;
         this.maxScore = 000000000000000;
-        this.highScore = 0;
+        this.highScore = 000000000000000;
         this.container = null;
 
         this.digits = [];
