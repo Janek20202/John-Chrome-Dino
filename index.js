@@ -35,7 +35,7 @@
         this.distanceMeter = null;
         this.distanceRan = 0;
 
-        this.highestScore = 0;
+        this.highestScore = 0000000;
 
         this.time = 0;
         this.runningTime = 0;
@@ -1862,7 +1862,7 @@
         this.y = 5;
 
         this.currentDistance = 0;
-        this.maxScore = 000000000000;
+        this.maxScore = 0000000;
         this.highScore = 0;
         this.container = null;
 
@@ -1932,7 +1932,7 @@
             for (var i = 0; i < this.maxScoreUnits; i++) {
                 this.draw(i, 0);
                 this.defaultString += '0';
-                maxDistanceStr += '9';
+                maxDistanceStr += '10000000000000000';
             }
 
             this.maxScore = parseInt(maxDistanceStr);
