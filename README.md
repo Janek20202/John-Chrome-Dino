@@ -2,7 +2,7 @@
 
 the trex runner game extracted from chrome offline err page.
 
-see the [source](https://chrome://dino)
+see the [source](https://wayou.github.io/t-rex-runner/)
 
 
 [go and enjoy! :smile: ](https://janek20202.github.io/John-Chrome-Dino/)
