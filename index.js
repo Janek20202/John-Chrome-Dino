@@ -1861,7 +1861,7 @@
         this.x = 0;
         this.y = 5;
 
-        this.currentDistance = 0;
+        this.currentDistance = 00000000000;
         this.maxScore = 0000000;
         this.highScore = 0;
         this.container = null;
