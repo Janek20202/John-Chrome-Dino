@@ -1862,7 +1862,7 @@
         this.y = 5;
 
         this.currentDistance = 0;
-        this.maxScore = 000000000000000;
+        this.maxScore = 000000000;
         this.highScore = 0;
         this.container = null;
 
@@ -1932,7 +1932,7 @@
             for (var i = 0; i < this.maxScoreUnits; i++) {
                 this.draw(i, 0);
                 this.defaultString += '0';
-                maxDistanceStr += '15';
+                maxDistanceStr += '9';
             }
 
             this.maxScore = parseInt(maxDistanceStr);
@@ -2077,7 +2077,7 @@
             this.canvasCtx.save();
             this.canvasCtx.globalAlpha = .8;
             for (var i = this.highScore.length - 1; i >= 0; i--) {
-                this.draw(i, parseInt(this.highScore[i], 100000000000000), true);
+                this.draw(i, parseInt(this.highScore[i], 10), true);
             }
             this.canvasCtx.restore();
         },
